@@ -2,5 +2,5 @@
 
 import os
 
-for elem in os.environ['PATH'].split(':'):
+for elem in os.environ['PATH'].split(os.pathsep):
     print elem
